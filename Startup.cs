@@ -40,7 +40,7 @@ namespace pipelines_dotnet_core
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage()//;
+                app.UseDeveloperExceptionPage();
             }
             else
             {
